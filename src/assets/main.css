@@ -1,0 +1,21 @@
+@import "./base.css";
+.dropdown-toggle {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: none;
+  min-width: fit-content;
+}
+.dropdown-toggle:hover {
+  background: transparent;
+}
+.btn-group {
+  min-width: 38px;
+}
+@media (max-width:1200px) {
+
+  .dropdown-toggle {
+    min-width: none;
+  }
+}
